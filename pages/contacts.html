@@ -112,67 +112,94 @@
             text-decoration: underline;
 
         }
+
+        .contact-container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+
+        .contact-info {
+            background-color: whitesmoke;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            transition: transform 0.03s, box-shadow 0.3s;
+        }
+
+        .contact-info:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2)
+        }
+
+        #map {
+            width: 100%;
+            height: 300px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgda(0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+
+        }
+
+        .info-details {
+            font-size: 16px;
+            color: grey;
+            margin-bottom: 15px;
+        }
+
+        #map:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
     </style>
 
 </head>
 
 <body>
     <header>
-        <h1> 🔧🏎️Welcome to my Car site !🏎️🔧</h1>
+        <h1>контакти інфа</h1>
     </header>
     <nav>
         <a href="../index.html">Home</a>
-        <a href="./video.html">Video</a>
+        <a href="./pages/video.html">Video</a>
         <a href="./news.html">NEWS</a>
-        <a href="./contacts.html">Contacts</a>
+        <a href="./contacts.html">ontacts</a>
+
     </nav>
-
-
-
-
 
 
     <div class="container">
 
-        <div class="post-card">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/PXDFuIMHNZw?si=sXZnj7Qsr2Xlfpt1"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            <img class="post-img" src="">
-            <h2 class="post-title">Как устроен автомобильный двигатель
-            </h2>
-            <p class="post-content"></p>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2 class="info-title">наша адренса</h2>
+                <p class="info-details">Вулиця Верхні Аджахи</p>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d898.362231681867!2d30.38018799538732!3d50.436936568718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cbe91174be51%3A0x74ee0ac8fac452d4!2z0JzQsNGB0YHQsNC2LiDQkdC-0YDRidCw0LPQvtCy0LrQsC4g0KHQstGP0YLQvtGI0LjQvdGB0LrQuNC5INGALdC9!5e1!3m2!1sru!2sua!4v1702048867748!5m2!1sru!2sua"
+                    width="300" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact-info">
+                <h2 class="contact-info">(наш тел. ) </h2>
+                <p class="info-details">
+                    <a href="tel: 0967747615">0967747615</a>
+            </div>
 
 
-
-        </div>
-
-        <div class="post-card">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/jZaGL0GbzyQ?si=U8jcY0MWcuS2W-Ym"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            <img class="post-img" src="">
-            <h2 class="post-title">Самые Дорогие Автомобили В Мире
-
-            </h2>
-            <p class="post-content"></p>
+            <div class="contact-info">
+                <h2 class="info-title">неш e-mail</h2>
+                <p class="info-details">
+                    <a href="scerban.pavlo@.geml">scerban.pavlo@.geml</a>
+                </p>
 
 
-        </div>
+                </p>
+            </div>
 
-        <div class="post-card">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/FGfrkilNCdE?si=P4mv8uROcyTzwJDC"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            <img class="post-img" src="">
-            <h2 class="post-title">Как турбировать атмосферник за 10 минут
-
-            </h2>
-            <p class="post-content">
-            </p>
 
 
 
@@ -181,6 +208,7 @@
 
 
     </div>
+
     <footer>
         2222p pavlo 私は農家です हम पॉल छी आ हम programmZT छी
 
